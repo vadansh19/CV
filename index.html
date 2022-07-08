@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV template</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <section>
+        <!-- MOBILE NAVIGATION -->
+        <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+            <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+                onclick="toggleNavigation()">&#9776;</a>
+        </div>
+        <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+            <a href="#about"
+                class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green"
+                onclick="toggleNavigation()">ABOUT</a>
+            <a href="#resume"
+                class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green"
+                onclick="toggleNavigation()">RESUME</a>
+            <a href="#contact"
+                class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green"
+                onclick="toggleNavigation()">CONTACT</a>
+        </div>
+
+        <!-- SOCIAL SECTION -->
+        <section class="image-section w3-quarter w3-fixed w3-padding-small">
+            <!--IMAGE/AVATAR-->
+            <img src="Webp.net-resizeimage.png" class="w3-circle w3-border w3-border-sand"
+                style="border-width: 3px !important;" />
+            <!--SCIAL NETWORK BUTTONS-->
+            <div class="links w3-margin-top w3-padding-small">
+                <a class="icon-link w3-text-sand w3-hover-text-amber" href="mailto: vedansh19092001@gmail.com"
+                    target="_blank">
+                    <span class="material-icons"> mail_outline
+                    </span>
+                </a>
+                <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://github.com/vadansh19"
+                    target="_blank">
+                    <i data-feather="github"></i>
+                </a>
+                <a class="icon-link w3-text-sand w3-hover-text-amber"
+                    href="https://twitter.com/Vadansh_19?t=0hsxwJEc8wUXUKMeL8-xvA&s=08" target="_blank">
+                    <i data-feather="twitter"></i>
+                </a>
+                <a class="icon-link w3-text-sand w3-hover-text-amber"
+                    href="https://www.linkedin.com/in/vadanshkulshreshtha" target="_blank">
+                    <i data-feather="linkedin"></i>
+                </a>
+            </div>
+            <!--CV DOWNLOAD BUTTON-->
+            <div class="w3-container w3-padding-16">
+                <a href="./VADANSH KULSHRESHTHA.pdf"
+                    class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large"
+                    target="_blank" download="resume.pdf">
+                    <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+                    <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+                </a>
+            </div>
+        </section>
+
+        <!--CV CONTENT SECTION-->
+        <section class="w3-threequarter w3-padding-large w3-right">
+            <!--DESKTOP NAVIGATION-->
+            <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+                <a href="#home"
+                    class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM
+                    VITAE</a>
+                <a href="#contact"
+                    class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small"
+                    style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+                <a href="#resume"
+                    class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small"
+                    style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+                <a href="#about"
+                    class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small"
+                    style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+            </div>
+            <div class="content-container w3-margin-top-2">
+                <!--HOME SECTION-->
+                <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+                    <p style="font-style: italic; font-size:x-large;">“Success usually comes to those who are too busy
+                        to be looking for it.”</p>
+                    <h1>Vadansh Kulshreshtha (20)</h2>
+                        <h2>BE (Electronics and Communication)</h3>
+                            <p></p>
+                </div>
+
+                <!--ABOUT SECTION-->
+                <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+                    <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+                    <p class="w3-margin-top-2">
+                        Adaptable professional with proven critical thinking, leadership, and problem-solving skills. Aiming to leverage my skills at your company. Frequently praised as focused by my peers, I can be relied upon to help your company achieve its goals. Dedicated and focused professional who excels in completing multiple task simultaneously.
+                    </p>
+                  
+                </div>
+
+                <!--RESUME-->
+                <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+                    <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+
+                        <!--EMPLOYMENT HISTORY SECTION-->
+                        <h3 class="w3-border-amber">MY EMPLOYMENT HISTORY</h3>
+                        <div class="">
+                            <h4>Trainee Intern at INTECH Creative Pvt. Ltd.</h4>
+                            <p>June 2022 - Present</p>
+                            <ul class="w3-ul" style="font-weight: 500;">
+                                <li>Developed leave management module using Python Django</li>
+                                <li>HR Function Support System</li>
+                                <li>Organizational requirement to facilitate all the resources with accurate and automated updates of current leave balance and apply leave in hassle free manner with authorization workflow</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+                    <!---EDUCATION SECTION-->
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+                        <h3 class="w3-border-amber">MY EDUCATION</h3>
+                        <h4>Government Engineering College,Gandhinagar </h4>
+                        <p>July 2019 - July 2023 </p>
+                        <p>CPI - 8.33 (Till Sem 5) </p>
+                        <h4>Kendriya Vidyalaya, Silvassa</h4>
+                        <p>April 2018 - May 2019 </p>
+                        <p>Percentage - 84.6% </p>
+                    </div>
+
+                    <!--SKILLS SECTION-->
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+                        <h3 class="w3-border-amber">MY SKILLS</h3>
+                        <!--SOFT SKILLS-->
+                        <h4>Soft skills</h4>
+                        <ul class="w3-ul" style="font-weight: 500;">
+                            <li>I have excelent communication skill and confidence in front of an audience</li>
+                            <li>I have a talent for researching different processes to offer different
+                                improvements and solution to improvise the code</li>
+                            <li>I have excelent leadership quality as I have been School People Leader in my school</li>
+                        </ul>
+                        <!--TECHNICAL SKILLS-->
+                        <h4>Technical skills</h4>
+                        <ul class="w3-ul" style="font-weight: 500;">
+                            <li>I have a great experience with HTML and CSS</li>
+                            <li>I have basic experience on Flask with Python</li>
+                            <li>Have basic knowledge of Data Structures and Algorithms</li>
+                        </ul>
+                    </div>
+
+                    <!--INTERESTS SECTION-->
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+                        <h3 class="w3-border-amber">MY HOBBIES AND INTERESTS</h3>
+                        <ul class="w3-ul" style="font-weight: 500;">
+                            <li>I love cycling in my free time</li>
+                            <li>I like to play board games with other people</li>
+                            <li>I like to play badminton</li>
+                            <li>I like to read novels</li>
+                        </ul>
+                    </div>
+
+                    <!--REFERENCE SECTION-->
+                    <div class="w3-container w3-margin-top-2 w3-cursive">
+                        <h3 class="w3-border-amber">LANGUAGES KNOWN</h3>
+                        <h4>Hindi</h4>
+                        <ul class="w3-ul" style="font-weight: 500;">
+                            <li>Native or bilingual proficiency</li>
+                            <ul><li>Read Write Speak</li></ul>
+                            
+                        </ul>
+                        <h4>English</h4>
+                        <ul class="w3-ul" style="font-weight: 500;">
+                            <li>Full professional proficiency</li>
+
+                           <ul><li>Read Write Speak</li></ul>
+                        </ul>
+                        <h4>Tamil</h4>
+                        <ul class="w3-ul" style="font-weight: 500;">
+                            <li>Elementary proficiency</li>
+                            <ul><li>Speak</li></ul>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--CONTACT SECTION-->
+                <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+                    <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT
+                        DETAILS</h3>
+                        <div class="w3-margin-top-2" style="font-weight: 500;">
+                            <p>Name: Vadansh Kulshreshtha</p>
+                            <p>Address: 207, Deep Complex, Everest Garden, Silvassa</p>
+                            <p>Mobile Number: +91 9106666031</p>
+                            <p>E-mail: vedansh19092001@gmail.com</p>
+                        </div>
+                </div>
+
+                <!--FOOTER-->
+                <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+                <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+                    <p>© 2022 - Vadansh Kulshreshtha</p>
+                    <!-- End footer -->
+                </footer>
+
+                <!--END OF CV SECTION-->
+        </section>
+    </section>
+    <script>
+        // Function to toggle mobile navigation
+        function toggleNavigation() {
+            let nav = document.getElementById("mobile-nav");
+            if (nav.classList.contains('w3-show')) {
+                nav.classList.remove('w3-show');
+            } else {
+                nav.classList.add('w3-show');
+            }
+        }
+    </script>
+    <script>
+        // Script to load feather icons
+        feather.replace()
+    </script>
+</body>
+
+</html>
